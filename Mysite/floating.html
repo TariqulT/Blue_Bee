@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Floating</title>
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+		div{
+			background-color: gray;
+		}
+		.pp{
+			height: 50px;
+			width: 50px;
+			border: 2.5px solid;
+			box-sizing: border-box;
+			margin-right: 10px;
+			margin-left: 10px;
+		}
+		#p1{
+			background-color: violet;
+			height: 110px;
+			float: left;
+		}
+		#p2{
+			background-color: green;
+			height: 100px;
+			float: right;
+		}
+		#p3{
+			background-color: yellow;
+			clear: both;
+		}
+		#p4{
+			background-color: orange;
+		}
+		#p5{
+			float: left;
+		}
+		#p6{
+			float: right;
+		}
+		ul{
+			width: 50%;
+			padding: 50px;
+			float: left;
+		}
+	</style>
+</head>
+<body>
+	<h1>Positioning element by Floating</h1>
+	<div>
+		<p id="p1" class="pp"></p>
+		<p id="p2" class="pp"></p>
+		<p id="p3" class="pp"></p>
+		<p id="p4" class="pp"></p>
+		<section>You are going to be high</section>
+	</div>
+	<h1>Two column design</h1>
+	<div style="background-color: #000;">
+		<ul>
+			<li>Quiet</li>
+			<li>Making little or no noise.</li>
+			<li>Carried out discreetly, secretly, or with moderation.</li>
+		</ul>
+		<ul>
+			<li>Quite</li>
+			<li>To the utmost or most absolute extent or degree; absolutely; completely.</li>
+			<li>To a certain or fairly significant extent or degree; fairly.</li>
+		</ul>
+	</div>
+</body>
+</html>

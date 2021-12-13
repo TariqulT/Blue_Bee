@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Media Queries</title>
+	<style>
+		*{
+			margin: 0px;
+			box-sizing: border-box;
+			margin-bottom: 10px;
+		}
+		h1{
+			text-align: center;
+			font-weight: bold;
+			text-shadow: darkgrey;
+		}
+		#d1{
+			width: 300px;
+			height: 300px;
+			background-color: black;
+		}
+		#d2{
+			width: 250px;
+			height: 250px;
+			background-color: darkgrey;
+		}
+		p{
+			width: 500px;
+			height: 30px;
+			background-color: greenyellow;
+		}
+		@media (min-width: 900px) and (max-width: 1500px){
+			#d1{
+				width: 100%;
+				background-color: skyblue;
+				border: 5px solid red;
+			}
+			p{
+				background-color: darkred;
+			}
+		}
+		@media (min-width: 1501px){
+			#d1{
+				width: 50%;
+				border: 5px dashed;
+			}
+			#d2{
+				width: 100%;
+				background-color: maroon;
+			}
+		}
+		@media (max-width: 899px){
+			p{
+				width: 20%;
+			}
+			#d1{
+				width: 60%;
+			}
+			#d2{
+				width: 40%;
+			}
+		}
+	</style>
+
+</head>
+<body>
+	<h1>Media Queries</h1>
+	<div id="d1"></div>
+	<div id="d2"></div>
+	<p></p>
+</body>
+</html>
