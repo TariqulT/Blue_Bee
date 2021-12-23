@@ -1,0 +1,49 @@
+*{
+	margin: 0px;
+	box-sizing: border-box;
+}
+.color_pink{
+	background-color: pink;
+}
+.color_red{
+	background-color: red;
+}
+.color_green{
+	background-color: green;
+}
+h1{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 80px;
+}
+section{
+	background-color: gray;
+	margin-left: 2.5%;
+	border: solid black 3px;
+	padding-left: 10px;
+	float: left;
+	position: relative;
+
+}
+h2{
+	width: 40%;
+	position: relative;
+	border: solid black 3px;
+	left: 60%;
+}
+
+@media (max-width: 767px){
+	section{
+		width: 100%;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	section{
+		width: 50%;
+	}
+}
+@media (min-width: 992px){
+	section{
+		width: 30%;
+	}
+}
