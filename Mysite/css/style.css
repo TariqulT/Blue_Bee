@@ -2,8 +2,8 @@
 	margin: 0px;
 	box-sizing: border-box;
 }
-.color_pink{
-	background-color: pink;
+.color_ygreen{
+	background-color: yellowgreen;
 }
 .color_red{
 	background-color: red;
@@ -13,37 +13,62 @@
 }
 h1{
 	text-align: center;
+	font-weight: bold;
 	margin-top: 30px;
-	margin-bottom: 80px;
+}
+div{
+	margin: 30px;
 }
 section{
 	background-color: gray;
-	margin-left: 2.5%;
 	border: solid black 3px;
-	padding-left: 10px;
+	margin-bottom: 15px;
+	font-size: 1.1em;
+	padding-left: 1%;
 	float: left;
-	position: relative;
-
 }
 h2{
-	width: 40%;
+	border-left: solid black 3px;
+	border-bottom: solid black 3px;
+	text-align: center;
+	font-size: 1.25em;
+	font-weight: bold;
+	width: 50%;
 	position: relative;
-	border: solid black 3px;
-	left: 60%;
+	left: 50%;
 }
 
 @media (max-width: 767px){
 	section{
 		width: 100%;
 	}
+	div{
+		margin-right: 40px;
+		margin-left: 40px;
+	}
 }
 @media (min-width: 768px) and (max-width: 991px){
 	section{
-		width: 50%;
+		width: 49%;
+	}
+	div section:nth-child(1){
+		margin-right: 2%;
+	}
+	div section:nth-child(3){
+		width: 100%;
+		clear: both;
+	}
+	div section:nth-child(3) h2{
+		width: 30%;
+		left: 70%;
 	}
 }
 @media (min-width: 992px){
 	section{
-		width: 30%;
+		width: 32%;
+		margin-right: 2%;
+	}
+	div section:nth-child(3){
+		margin-right: 0%;
 	}
 }
