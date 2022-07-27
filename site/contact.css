@@ -1,0 +1,102 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+.page{
+	margin: 10px;
+}
+.top{
+	background-color: #000000;
+}
+.header{
+	height: 120px;
+}
+
+.header section{
+	background-color: #1f2833;
+	height: 100%;
+	width: 15%;
+	float: left;
+	text-align: center;
+	padding-top: 10px;
+}
+.header h1{
+	background-color: #1f2833;
+	height: 100%;
+	width: 69.8%;
+	margin-left: 0.1%;
+	margin-right: 0.1%;
+	color: #66fcf1;
+	font-size: 65px;
+	text-align: center;
+	text-shadow: 3px 3px #0000aa;
+	padding-top: 20px;
+	float: left;
+}
+.header div{
+	background-color: #1f2833;
+	color: #66fcf1;
+	height: 100%;
+	width: 15%;
+	padding: 10px;
+	text-align: center;
+	padding-top: 40px;
+	float: left;
+}
+.header input{
+	width: 70%;
+}
+.header p{
+	clear : both;
+}
+a{
+	text-decoration: none;
+}
+.table a{
+	color: #ffffff;
+}
+.table a:hover{
+	color: #5600f0;
+	font-size: 130%;
+}
+.table td{
+	width: 16.67%;
+	height: 100%;
+	text-align: center;
+	background-color: #1f2833;
+	
+}
+.navigation{
+	margin-top: 10px;
+	margin-bottom: 15px;
+	width: 100%;
+	height: 50px;
+}
+.content{
+	background-color: #ffffff;
+	padding: 10px;
+	overflow: hidden;
+}
+h2{
+	text-align: center;
+}
+.form{
+	padding-top: 40px;
+	width: 100%;
+	text-align: center;
+	color: #ffffff;
+}
+.form tr{
+	background-color: #1f2833;
+}
+.table{
+	width: 100%;
+	height: 100%;
+}
+.footer{
+	clear: both;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 30px;
+}
