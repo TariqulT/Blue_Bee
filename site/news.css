@@ -81,14 +81,16 @@ a{
 h2{
 	text-align: center;
 }
-.form{
-	padding-top: 40px;
-	width: 100%;
-	text-align: center;
-	color: #ffffff;
+img{
+	display: block;
 }
-.form tr{
-	background-color: #1f2833;
+.form{
+	width: 70%;
+	margin: auto;
+}
+.form img{
+	width: 300px;
+	margin: auto;
 }
 .table{
 	width: 100%;

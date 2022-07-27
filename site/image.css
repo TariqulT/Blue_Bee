@@ -85,7 +85,8 @@ img{
 	display: block;
 }
 .form{
-	width: 100%;
+	width: 80%;
+	margin: auto;
 }
 
 .form img{
